@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Intro to Django</title>
+        <style type="text/css"> 
+            h1 {
+                color:azure
+            }
+            p {
+                color:azure
+            }
+            h1 {
+                font-family:Arial, Helvetica, sans-serif
+            }
+            p {
+                font-family: ;
+            }
+        </style>
+    </head>
+    <body style="background-color:black">
+        <h1 style="color:white">Recent Topics</h1>
+        {% for post in post_objects %}
+            <p>{{ post }}</p>
+        {% endfor %}
+    </body>
+</html>
